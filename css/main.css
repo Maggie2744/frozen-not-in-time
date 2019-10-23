@@ -11,3 +11,9 @@ img {
   width: 100%;
   display: block;
 }
+
+.background {
+  background-image: repeating-linear-gradient(135deg, #c9fcff, #c9fcff 10%, #d4fdff 10%, #d4fdff 20%);
+  background-size: 130px 130px;
+  background-repeat: contain;
+}
