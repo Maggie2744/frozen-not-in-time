@@ -1,0 +1,13 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Fredoka One', cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
