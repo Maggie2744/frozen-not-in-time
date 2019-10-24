@@ -1,5 +1,4 @@
 html {
-  box-sizing: border-box;
   font-family: "Fredoka One", sans-serif;
 }
 
@@ -12,8 +11,86 @@ img {
   display: block;
 }
 
-.background {
+body {
   background-image: repeating-linear-gradient(135deg, #c9fcff, #c9fcff 10%, #d4fdff 10%, #d4fdff 20%);
   background-size: 130px 130px;
-  background-repeat: contain;
+  background-repeat: repeat;
+  border-top: 10px solid #b3fbff;
+  border-bottom: 10px solid #b3fbff;
+}
+
+.content-1 {
+  max-width: 19em;
+  padding-left: 3em;
+  padding-top: 5em;
+}
+
+h1 {
+  color: #990073;
+}
+
+p {
+  color: #c09;
+}
+
+.btn {
+  color: #c09;
+  border: 2px solid #990073;
+}
+
+.cone {
+  max-width: 8em;
+  position: absolute;
+  top: 270px;
+  right: 100px;
+  animation: drop 3s linear;
+  transform-origin: top center;
+}
+
+.mint-chip {
+  max-width: 8em;
+  position: absolute;
+  top: 188px;
+  right: 100px;
+  animation: drop 3s linear;
+  transform-origin: top center;
+}
+
+.chocolate-chip {
+  max-width: 8em;
+  position: absolute;
+  top: 120px;
+  right: 90px;
+  animation: drop 3s linear;
+  transform-origin: top center;
+}
+
+.vanilla-fudge {
+  max-width: 8em;
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  animation: drop 3s linear;
+  transform-origin: top center;
+}
+
+.cherry {
+  max-width: 8em;
+  position: absolute;
+  top: 1px;
+  right: 90px;
+  animation: drop 3s linear;
+  transform-origin: top center;
+}
+
+@keyframe drop {
+
+  0% {
+    transform: translateY(40em);
+  }
+
+  100% {
+    transform: translateY(1em);
+  }
+
 }
